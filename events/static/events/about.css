@@ -1,0 +1,36 @@
+/*--brandColor: darkorchid;*/
+
+body {
+    font-family: system-ui;
+    --brandColor: darkorchid;
+    background: linear-gradient(to bottom, --brandColor, darken(--brandColor, 15%));
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+  }
+  
+
+.content {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
